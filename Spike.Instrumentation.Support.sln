@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Cross Cutting Concerns", "3. Cross Cutting Concerns", "{2BBD15D3-E193-4264-8A02-34BF7E6799FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.Instrumentation", "Spike.Instrumentation\Spike.Instrumentation.csproj", "{5EA0C209-F67D-493E-BAA3-E79F33B4B468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Provers (BL)", "2. Provers (BL)", "{26810E5D-8294-470B-849B-F59B9EE44119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Simuators (FE)", "1. Simuators (FE)", "{A13C2B39-AA16-4831-AC68-9C829359881A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.CounterSimulator", "Spike.CounterSimulator\Spike.CounterSimulator.csproj", "{6C4C3F1B-51FD-4F7C-B551-A59502CB0C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.Providers", "Spike.Providers\Spike.Providers.csproj", "{EB3EA849-F764-4FDD-806A-A8E1AB3ABE49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EA0C209-F67D-493E-BAA3-E79F33B4B468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA0C209-F67D-493E-BAA3-E79F33B4B468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA0C209-F67D-493E-BAA3-E79F33B4B468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA0C209-F67D-493E-BAA3-E79F33B4B468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4C3F1B-51FD-4F7C-B551-A59502CB0C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4C3F1B-51FD-4F7C-B551-A59502CB0C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4C3F1B-51FD-4F7C-B551-A59502CB0C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4C3F1B-51FD-4F7C-B551-A59502CB0C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3EA849-F764-4FDD-806A-A8E1AB3ABE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3EA849-F764-4FDD-806A-A8E1AB3ABE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3EA849-F764-4FDD-806A-A8E1AB3ABE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3EA849-F764-4FDD-806A-A8E1AB3ABE49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EA0C209-F67D-493E-BAA3-E79F33B4B468} = {2BBD15D3-E193-4264-8A02-34BF7E6799FA}
+		{6C4C3F1B-51FD-4F7C-B551-A59502CB0C7E} = {A13C2B39-AA16-4831-AC68-9C829359881A}
+		{EB3EA849-F764-4FDD-806A-A8E1AB3ABE49} = {26810E5D-8294-470B-849B-F59B9EE44119}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05103631-28D8-4633-9910-76BAC5F353B5}
+	EndGlobalSection
+EndGlobal
